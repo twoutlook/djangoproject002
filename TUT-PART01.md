@@ -61,5 +61,25 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
     git remote add origin git@github.com:twoutlook/djangoproject002.git
     git push -u origin master
 
+## git tag
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
+    
+    
+    git tag
+    git tag -a v0.1 -m "part1, done"
+    
+    git tag -d v0.1
+    
+    git tag
+    git show v0.1
+    git push origin v0.1    
+    git push -u origin master
 
-
+## git add and commit    
+    git add .
+    git commit -m"xxx"
+    
+## del tag    
+http://stackoverflow.com/questions/5480258/how-to-delete-a-remote-tag    
+    git push --delete origin v0.1
+    
