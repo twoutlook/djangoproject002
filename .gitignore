@@ -1,0 +1,13 @@
+
+# https://tutorial.djangogirls.org/en/deploy/
+*.pyc
+__pycache__
+myvenv
+
+# db.sqlite3
+
+# /static
+mysite/static
+
+
+.DS_Store
