@@ -82,7 +82,12 @@ https://git-scm.com/book/en/v2/Git-Basics-Tagging
     git add .
     git commit -m"xxx"
     
-## del tag    
+## del remote tag    
 http://stackoverflow.com/questions/5480258/how-to-delete-a-remote-tag    
+    
     git push --delete origin v0.1
     
+## list remote tags    
+http://stackoverflow.com/questions/6294224/check-if-pushed-tag-is-on-the-git-remote
+
+    git ls-remote --tags origin
