@@ -66,8 +66,11 @@ https://git-scm.com/book/en/v2/Git-Basics-Tagging
     
     
     git tag
+    
+    -a as add
     git tag -a v0.1 -m "part1, done"
     
+    -d as del
     git tag -d v0.1
     
     git tag
